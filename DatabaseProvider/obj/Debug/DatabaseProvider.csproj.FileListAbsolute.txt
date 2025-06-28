@@ -1,0 +1,36 @@
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\bin\Debug\DatabaseProvider.dll.config
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\bin\Debug\DatabaseProvider.dll
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\bin\Debug\DatabaseProvider.pdb
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.csproj.CopyComplete
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.dll
+C:\Users\Admin\source\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.pdb
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\bin\Debug\DatabaseProvider.dll.config
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\bin\Debug\DatabaseProvider.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\bin\Debug\DatabaseProvider.pdb
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\bin\Debug\EntityFramework.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\bin\Debug\EntityFramework.xml
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\obj\Debug\Database.C21FFB61.Up2Date
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DatabaseProvider\obj\Debug\DatabaseProvider.pdb
+C:\nhaconline\DatabaseProvider\bin\Debug\DatabaseProvider.dll.config
+C:\nhaconline\DatabaseProvider\bin\Debug\DatabaseProvider.dll
+C:\nhaconline\DatabaseProvider\bin\Debug\DatabaseProvider.pdb
+C:\nhaconline\DatabaseProvider\bin\Debug\EntityFramework.dll
+C:\nhaconline\DatabaseProvider\bin\Debug\EntityFramework.SqlServer.dll
+C:\nhaconline\DatabaseProvider\bin\Debug\EntityFramework.xml
+C:\nhaconline\DatabaseProvider\bin\Debug\EntityFramework.SqlServer.xml
+C:\nhaconline\DatabaseProvider\obj\Debug\DatabaseProvider.csproj.AssemblyReference.cache
+C:\nhaconline\DatabaseProvider\obj\Debug\DatabaseProvider.csproj.CoreCompileInputs.cache
+C:\nhaconline\DatabaseProvider\obj\Debug\Database.C21FFB61.Up2Date
+C:\nhaconline\DatabaseProvider\obj\Debug\DatabaseProvider.dll
+C:\nhaconline\DatabaseProvider\obj\Debug\DatabaseProvider.pdb

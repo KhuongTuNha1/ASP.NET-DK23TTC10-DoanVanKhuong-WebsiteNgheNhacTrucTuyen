@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nhaconline</RootNamespace>
+    <AssemblyName>nhaconline</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\font-awesome\4.7.0\css\font-awesome.min.css" />
+    <Content Include="Content\font-awesome\4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\hinh\51838832_1094204167418854_4676001006201339904_n.png" />
+    <Content Include="Content\hinh\6-chai-tra-xanh-c2-huong-chanh-455ml-202006191930581728.jpg" />
+    <Content Include="Content\hinh\62032863_586089061799187_8003306509645643776_n.jpg" />
+    <Content Include="Content\hinh\62544845563d45f2866ba1f98adcd937.jpg" />
+    <Content Include="Content\hinh\abc.png" />
+    <Content Include="Content\hinh\b11b71b0821c2e1226367b918ccda8c4.jpg" />
+    <Content Include="Content\hinh\bai-viet-gioi-thieu-quan-cafe-hay.jpg" />
+    <Content Include="Content\hinh\ban.jpg" />
+    <Content Include="Content\hinh\banner.jpg" />
+    <Content Include="Content\hinh\buttonthem.png" />
+    <Content Include="Content\hinh\ca-phe-kem-tuoi.jpg" />
+    <Content Include="Content\hinh\cach-lam-sinh-to-dau-tay.png" />
+    <Content Include="Content\hinh\Cach-lam-tra-sua-tran-chau.jpg" />
+    <Content Include="Content\hinh\caf65da5-1f48-4939-a9a5-d6bd087cfd75.jpg" />
+    <Content Include="Content\hinh\cafe-nau.jpg" />
+    <Content Include="Content\hinh\chien-luoc-marketing-cua-tra-xanh-khong-do.jpg" />
+    <Content Include="Content\hinh\Cách-làm-và-xay-sinh-tố-cà-chua-với-cà-rốt-sữa-mật-ong-cho-bà-bầu-2.jpg" />
+    <Content Include="Content\hinh\daotao.png" />
+    <Content Include="Content\hinh\dasua.jpg" />
+    <Content Include="Content\hinh\giohang.png" />
+    <Content Include="Content\hinh\home.jpg" />
+    <Content Include="Content\hinh\home.png" />
+    <Content Include="Content\hinh\logo.png" />
+    <Content Include="Content\hinh\loi-ich-cua-nuoc-uong-tinh-khiet-aquafina-1.png" />
+    <Content Include="Content\hinh\lynuoc.jfif" />
+    <Content Include="Content\hinh\maxresdefault.jpg" />
+    <Content Include="Content\hinh\nuoc-number-one.jpg" />
+    <Content Include="Content\hinh\nuoc.jpg" />
+    <Content Include="Content\hinh\quacau.png" />
+    <Content Include="Content\hinh\recipe744-prepare-step4-635526155122725156.jpg" />
+    <Content Include="Content\hinh\red-bull-1_tjun.png" />
+    <Content Include="Content\hinh\sinh-to-thap-cam-2_3498391daeb74ad3be76e6f5c502d251_grande.png" />
+    <Content Include="Content\hinh\Sinh-to-xoai-voi-cot-dua.png" />
+    <Content Include="Content\hinh\suoi.jpg" />
+    <Content Include="Content\hinh\tanh.jpg" />
+    <Content Include="Content\hinh\the_coffee_club_vietnam_-_vietnamese_black_coffee_22a680c6f2394e3b81ee7a0a3ddc72b1_1024x1024.jpg" />
+    <Content Include="Content\hinh\thietkehaithanh-banner2.jpg" />
+    <Content Include="Content\hinh\tinlogo.jpg" />
+    <Content Include="Content\hinh\tra_sua_trai_cay_3_ffeed26534c94080b87b09489e3bfc5f_grande.jpg" />
+    <Content Include="Content\hinh\vanban.jpg" />
+    <Content Include="Content\webcopy-origin.txt" />
+    <Content Include="Content\wp-admin\js\password-strength-meter.min.js" />
+    <Content Include="Content\wp-content\plugins\contact-form-7\includes\css\styles.css" />
+    <Content Include="Content\wp-content\plugins\contact-form-7\includes\js\index.js" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\assets\css\style.css" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\assets\js\ot-vertical-menu.min.js" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\assets\vendor\superfish\hoverIntent.js" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\assets\vendor\superfish\superfish.min.js" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\libs\menu-icons\css\extra.min.css" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\libs\menu-icons\vendor\codeinwp\icon-picker\css\types\font-awesome.min.css" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\libs\menu-icons\vendor\codeinwp\icon-picker\css\types\fontawesome-webfont.svg" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\default-skin.min.css" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\default-skin.png" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\default-skin.svg" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\preloader.gif" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\css\photoswipe\photoswipe.min.css" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\css\select2.css" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart-variation.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\address-i18n.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\cart-fragments.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\cart.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\checkout.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\country-select.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\lost-password.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\password-strength-meter.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\single-product.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\frontend\woocommerce.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\jquery-blockui\jquery.blockUI.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\js-cookie\js.cookie.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\photoswipe\photoswipe-ui-default.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\photoswipe\photoswipe.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\assets\js\selectWoo\selectWoo.full.min.js" />
+    <Content Include="Content\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\style.css" />
+    <Content Include="Content\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\vendors-style.css" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\css\fl-icons.css" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\css\flatsome-shop.css" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\css\flatsome.css" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\css\icons\fl-icons.svg" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\img\shadow%402x.png" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\img\underline.png" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\js\flatsome.js" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\js\woocommerce.js" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\libs\float-labels.min.js" />
+    <Content Include="Content\wp-content\themes\flatsome\inc\extensions\flatsome-lazy-load\flatsome-lazy-load.js" />
+    <Content Include="Content\wp-content\themes\flatsome\inc\extensions\flatsome-live-search\flatsome-live-search.js" />
+    <Content Include="Content\wp-content\themes\shop2\style.css" />
+    <Content Include="Content\wp-content\uploads\2018\07\phone-100x100.png" />
+    <Content Include="Content\wp-content\uploads\2018\07\phone.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\banner_newsletter-300x86.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\banner_newsletter.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\bg_newsletter.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\cropped-Logo-GiuseArt-180x180.jpg" />
+    <Content Include="Content\wp-content\uploads\2018\08\cropped-Logo-GiuseArt-192x192.jpg" />
+    <Content Include="Content\wp-content\uploads\2018\08\cropped-Logo-GiuseArt-32x32.jpg" />
+    <Content Include="Content\wp-content\uploads\2018\08\icon-lienhe-1.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\icon-lienhe-2.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\icon-lienhe-3.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\icon-telephone.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\payment-300x46.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\payment.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\productdetail-icon1.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\productdetail-icon3.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\productdetail-icon4.png" />
+    <Content Include="Content\wp-content\uploads\2018\08\productdetail-icon5.png" />
+    <Content Include="Content\wp-includes\css\dashicons.min.css" />
+    <Content Include="Content\wp-includes\css\dist\block-library\style.min.css" />
+    <Content Include="Content\wp-includes\js\comment-reply.min.js" />
+    <Content Include="Content\wp-includes\js\dist\hooks.min.js" />
+    <Content Include="Content\wp-includes\js\dist\i18n.min.js" />
+    <Content Include="Content\wp-includes\js\dist\vendor\wp-polyfill.min.js" />
+    <Content Include="Content\wp-includes\js\hoverIntent.min.js" />
+    <Content Include="Content\wp-includes\js\jquery\jquery-migrate.min.js" />
+    <Content Include="Content\wp-includes\js\jquery\jquery.min.js" />
+    <Content Include="Content\wp-includes\js\underscore.min.js" />
+    <Content Include="Content\wp-includes\js\wp-embed.min.js" />
+    <Content Include="Content\wp-includes\js\wp-util.min.js" />
+    <Content Include="Content\wp-includes\js\zxcvbn-async.min.js" />
+    <Content Include="Content\wp-includes\wlwmanifest.xml" />
+    <Content Include="Content\wp-json\index.htm" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\css.css" />
+    <Content Include="Content\font-awesome\4.7.0\fonts\fontawesome-webfont-1.eot" />
+    <Content Include="Content\font-awesome\4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\font-awesome\4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\font-awesome\4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\libs\menu-icons\vendor\codeinwp\icon-picker\css\types\fontawesome-webfont-1.eot" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\libs\menu-icons\vendor\codeinwp\icon-picker\css\types\fontawesome-webfont.eot" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\libs\menu-icons\vendor\codeinwp\icon-picker\css\types\fontawesome-webfont.ttf" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\libs\menu-icons\vendor\codeinwp\icon-picker\css\types\fontawesome-webfont.woff" />
+    <Content Include="Content\wp-content\plugins\ot-flatsome-vertical-menu\libs\menu-icons\vendor\codeinwp\icon-picker\css\types\fontawesome-webfont.woff2" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\css\icons\fl-icons.eot" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\css\icons\fl-icons.ttf" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\css\icons\fl-icons.woff" />
+    <Content Include="Content\wp-content\themes\flatsome\assets\css\icons\fl-icons.woff2" />
+    <Content Include="Content\wp-includes\fonts\dashicons.eot" />
+    <Content Include="Content\wp-includes\fonts\dashicons.ttf" />
+    <Content Include="Content\wp-json\oembed\1.0\embed" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-1" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-10" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-100" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-101" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-102" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-103" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-104" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-105" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-11" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-12" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-13" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-14" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-15" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-16" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-17" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-18" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-19" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-2" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-20" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-21" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-22" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-23" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-24" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-25" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-26" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-27" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-28" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-29" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-3" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-30" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-31" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-32" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-33" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-34" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-35" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-36" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-37" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-38" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-39" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-4" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-40" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-41" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-42" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-43" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-44" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-45" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-46" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-47" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-48" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-49" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-5" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-50" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-51" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-52" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-53" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-54" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-55" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-56" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-57" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-58" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-59" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-6" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-60" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-61" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-62" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-63" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-64" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-65" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-66" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-67" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-68" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-69" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-7" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-70" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-71" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-72" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-73" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-74" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-75" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-76" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-77" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-78" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-79" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-8" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-80" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-81" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-82" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-83" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-84" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-85" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-86" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-87" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-88" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-89" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-9" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-90" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-91" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-92" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-93" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-94" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-95" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-96" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-97" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-98" />
+    <Content Include="Content\wp-json\oembed\1.0\embed-99" />
+    <Content Include="Content\wp-json\wp\v2\categories\1" />
+    <Content Include="Content\wp-json\wp\v2\categories\107" />
+    <Content Include="Content\wp-json\wp\v2\pages\2" />
+    <Content Include="Content\wp-json\wp\v2\pages\7" />
+    <Content Include="Content\wp-json\wp\v2\pages\8" />
+    <Content Include="Content\wp-json\wp\v2\pages\9" />
+    <Content Include="Content\wp-json\wp\v2\pages\92" />
+    <Content Include="Content\wp-json\wp\v2\pages\96" />
+    <Content Include="Content\wp-json\wp\v2\pages\98" />
+    <Content Include="Content\wp-json\wp\v2\posts\1122" />
+    <Content Include="Content\wp-json\wp\v2\posts\1125" />
+    <Content Include="Content\wp-json\wp\v2\posts\1128" />
+    <Content Include="Content\wp-json\wp\v2\posts\1131" />
+    <Content Include="Content\wp-json\wp\v2\posts\1134" />
+    <Content Include="Content\wp-json\wp\v2\posts\1149" />
+    <Content Include="Content\wp-json\wp\v2\posts\1322" />
+    <Content Include="Content\wp-json\wp\v2\posts\1336" />
+    <Content Include="Content\wp-json\wp\v2\posts\1424" />
+    <Content Include="Content\wp-json\wp\v2\posts\1428" />
+    <Content Include="Content\wp-json\wp\v2\posts\1430" />
+    <Content Include="Content\wp-json\wp\v2\posts\1433" />
+    <Content Include="Content\wp-json\wp\v2\posts\1462" />
+    <Content Include="Content\wp-json\wp\v2\product\1094" />
+    <Content Include="Content\wp-json\wp\v2\product\1108" />
+    <Content Include="Content\wp-json\wp\v2\product\1142" />
+    <Content Include="Content\wp-json\wp\v2\product\1170" />
+    <Content Include="Content\wp-json\wp\v2\product\1175" />
+    <Content Include="Content\wp-json\wp\v2\product\1235" />
+    <Content Include="Content\wp-json\wp\v2\product\1237" />
+    <Content Include="Content\wp-json\wp\v2\product\1238" />
+    <Content Include="Content\wp-json\wp\v2\product\1298" />
+    <Content Include="Content\wp-json\wp\v2\product\1321" />
+    <Content Include="Content\wp-json\wp\v2\product\1329" />
+    <Content Include="Content\wp-json\wp\v2\product\1330" />
+    <Content Include="Content\wp-json\wp\v2\product\1334" />
+    <Content Include="Content\wp-json\wp\v2\product\1340" />
+    <Content Include="Content\wp-json\wp\v2\product\1407" />
+    <Content Include="Content\wp-json\wp\v2\product\1408" />
+    <Content Include="Content\wp-json\wp\v2\product\1409" />
+    <Content Include="Content\wp-json\wp\v2\product\1437" />
+    <Content Include="Content\wp-json\wp\v2\product\1441" />
+    <Content Include="Content\wp-json\wp\v2\product\1444" />
+    <Content Include="Content\wp-json\wp\v2\product\1445" />
+    <Content Include="Content\wp-json\wp\v2\product\1446" />
+    <Content Include="Content\wp-json\wp\v2\product\1447" />
+    <Content Include="Content\wp-json\wp\v2\product\1454" />
+    <Content Include="Content\wp-json\wp\v2\product\1455" />
+    <Content Include="Content\wp-json\wp\v2\product\1457" />
+    <Content Include="Content\wp-json\wp\v2\product\1458" />
+    <Content Include="Content\wp-json\wp\v2\product\1459" />
+    <Content Include="Content\wp-json\wp\v2\product\1467" />
+    <Content Include="Content\wp-json\wp\v2\product\1477" />
+    <Content Include="Content\wp-json\wp\v2\product\1490" />
+    <Content Include="Content\wp-json\wp\v2\product\1492" />
+    <Content Include="Content\wp-json\wp\v2\product\1501" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\100" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\101" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\102" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\114" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\115" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\116" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\117" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\118" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\119" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\120" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\121" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\122" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\123" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\124" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\125" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\126" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\127" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\128" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\129" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\130" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\131" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\15" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\69" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\97" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\98" />
+    <Content Include="Content\wp-json\wp\v2\product_cat\99" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\103" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\104" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\105" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\106" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\109" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\111" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\112" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\113" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\134" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\147" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\150" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\151" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\153" />
+    <Content Include="Content\wp-json\wp\v2\product_tag\95" />
+    <Content Include="Content\wp-json\wp\v2\tags\108" />
+    <Content Include="Content\wp-json\wp\v2\tags\110" />
+    <Content Include="Content\wp-json\wp\v2\tags\148" />
+    <Content Include="Content\wp-json\wp\v2\tags\149" />
+    <Content Include="Content\wp-json\wp\v2\users\3" />
+    <Content Include="Content\xmlrpc.php" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-3.7.1.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\AddDanhMuc.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\ChuDe.cshtml" />
+    <Content Include="Views\Home\Album.cshtml" />
+    <Content Include="Views\Home\XemChuDe.cshtml" />
+    <Content Include="Views\Home\BXH.cshtml" />
+    <Content Include="Views\Home\PlayNhac.cshtml" />
+    <Content Include="Views\Home\Casi.cshtml" />
+    <Content Include="Views\Home\PlayNhacAlbum.cshtml" />
+    <Content Include="Views\Shared\_Admin.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Shared\_login.cshtml" />
+    <Content Include="Views\Admin\ThemNhac.cshtml" />
+    <Content Include="Views\Admin\ThemCaSi.cshtml" />
+    <Content Include="Views\Admin\ThemCD.cshtml" />
+    <Content Include="Views\Admin\ThemTheLoai.cshtml" />
+    <Content Include="Views\Admin\ThemTaiKhoan.cshtml" />
+    <Content Include="Views\Shared\_User.cshtml" />
+    <Content Include="Views\Admin\SuaCaSi.cshtml" />
+    <Content Include="Views\Admin\SuaCD.cshtml" />
+    <Content Include="Views\Admin\SuaNhac.cshtml" />
+    <Content Include="Views\Admin\SuaTaiKhoan.cshtml" />
+    <Content Include="Views\Admin\SuaTheLoai.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Content\mp3\" />
+    <Folder Include="Content\wp-content\uploads\2018\12\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseProvider\DatabaseProvider.csproj">
+      <Project>{1c2422b6-3b7f-431c-874a-c2ef1d35704f}</Project>
+      <Name>DatabaseProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataIO\DataIO.csproj">
+      <Project>{2D40C43C-A7B7-463A-800A-49B4F2FB79C0}</Project>
+      <Name>DataIO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>46677</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:46677/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

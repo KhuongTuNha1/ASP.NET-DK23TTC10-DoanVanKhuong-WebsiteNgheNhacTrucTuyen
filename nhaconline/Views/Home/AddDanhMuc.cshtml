@@ -1,0 +1,114 @@
+﻿@model List<DatabaseProvider.playlist>
+<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+
+<div class="sanpham sub">
+    <center>
+        <table width="600px">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend class="dinhdang">NHẬP DANH MỤC</legend>
+                        <center>
+                            </br><table width="600px">
+                                <tr>
+                                    <td class="dinhdang">Mã(Tự tăng)</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="dinhdang">Tên danh mục</td>
+                                    <td>
+                                        <input id="txtdm" type="text" name="txtdm" size="50">
+
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center">
+                                        </br><p id="tb" style="border-color:red;border:solid; display:none"> </p>
+                                        
+                                        <img onclick="AddNew()" src="~/Content/hinh/buttonthem.png" />
+                                    </td>
+
+                                </tr>
+                            </table>
+                        </center>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </center>
+    <center>
+        <h2> DANH SÁCH DANH MỤC</h2>
+        <table class='myTable' id="tbdm">
+            <tr>
+                <th> STT</th>
+                <th> Tên Danh Mục</th>"
+                <th>Sửa</th>
+                <th>Xóa</th>
+            </tr>
+            @{ var i = 0;}
+            @foreach (DatabaseProvider.playlist item in Model)
+            {
+                i = i + 1;
+                <tr>
+                    <td>@i</td>
+                    <td>@item.TenPL</td>
+                    <td>
+                        <a href=''>
+                            Sửa
+                        </a>
+                    </td>
+                    <td><a href='/Home/XoaDanhMuc/@item.MaPL' onclick="return confirm('Bạn thật sự muốn xóa Khóa Học này?')">Xóa</a></td>
+                </tr>
+            }
+        </table>
+        <input id="sl" type="hidden" name="txtBan" value="@i">
+    </center>
+</div>
+<script>
+    function AddNew() {
+        var dm = $('#txtdm').val();
+        if (dm == '') {
+            $('#tb').html('Phải nhập tên dạnh mục');
+            $('#tb').css('border-color', 'red');
+            $('#tb').css('color', 'red');
+            $('#tb').css('display', 'block');
+            return;
+        }
+        //alert("tới đây ok 1");
+        var form = new FormData();
+        form.append("txtdm", dm);
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST",'/Home/SaveDM', true);
+        alert("tới đây ok 2");
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var content = xhr.responseText;
+                var json_ct = JSON.parse(content);
+                alert("tới đây ok 3");
+                if (json_ct.Data.status == "OK") {
+                    var i = $('#sl').val() * 1 + 1;
+                    $('#sl').val(i);
+                    var tr = '<tr><td>'+i+'</td><td>' + dm + '</td><td>< a href =  >Sửa</a ></td > <td><a href= onclick=\"return confirm("Bạn thật sự muốn xóa Khóa Học này?")\">Xóa</a></td ></tr>';
+                    $('#tbdm').append(tr);
+                    $('#tb').html('Đã thêm mới thành công');
+                    $('#tb').css('border-color', 'green');
+                    $('#tb').css('color', 'green');
+                    $('#tb').css('display', 'block');
+                    $('#txtdm').val('');
+                } else {
+                    $('#tb').html(json_ct.Data.message);
+                    $('#tb').css('border-color', 'red');
+                    $('#tb').css('color', 'red');
+                    $('#tb').css('display', 'block');
+                }
+            }
+        }
+        xhr.send(form);
+
+    }
+</script>

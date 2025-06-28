@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D40C43C-A7B7-463A-800A-49B4F2FB79C0}|DataIO\\DataIO.csproj|c:\\users\\nguye\\source\\repos\\doanvankhuong039\\asp.net-nghenhaconline\\nhaconline\\dataio\\dbio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D40C43C-A7B7-463A-800A-49B4F2FB79C0}|DataIO\\DataIO.csproj|solutionrelative:dataio\\dbio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\views\\admin\\suatheloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|solutionrelative:nhaconline\\views\\admin\\suatheloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|c:\\users\\nguye\\source\\repos\\doanvankhuong039\\asp.net-nghenhaconline\\nhaconline\\nhaconline\\views\\admin\\themcasi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|solutionrelative:nhaconline\\views\\admin\\themcasi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|c:\\users\\nguye\\source\\repos\\doanvankhuong039\\asp.net-nghenhaconline\\nhaconline\\nhaconline\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|solutionrelative:nhaconline\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|solutionrelative:nhaconline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|solutionrelative:nhaconline\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|solutionrelative:nhaconline\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|solutionrelative:nhaconline\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13D1A3E-3462-4693-BE13-1D76A4F5FEA1}|nhaconline\\nhaconline.csproj|solutionrelative:nhaconline\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\cafeonline\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cafeonline\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C2422B6-3B7F-431C-874A-C2EF1D35704F}|DatabaseProvider\\DatabaseProvider.csproj|C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\databaseprovider\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C2422B6-3B7F-431C-874A-C2EF1D35704F}|DatabaseProvider\\DatabaseProvider.csproj|solutionrelative:databaseprovider\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBIO.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\DataIO\\DBIO.cs",
+              "RelativeDocumentMoniker": "DataIO\\DBIO.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\DataIO\\DBIO.cs",
+              "RelativeToolTip": "DataIO\\DBIO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:40:23.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThemCaSi.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Views\\Admin\\ThemCaSi.cshtml",
+              "RelativeDocumentMoniker": "nhaconline\\Views\\Admin\\ThemCaSi.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Views\\Admin\\ThemCaSi.cshtml",
+              "RelativeToolTip": "nhaconline\\Views\\Admin\\ThemCaSi.cshtml",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAAMMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T17:22:49.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "nhaconline\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "nhaconline\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAAPYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:45:43.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuaTheLoai.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Views\\Admin\\SuaTheLoai.cshtml",
+              "RelativeDocumentMoniker": "nhaconline\\Views\\Admin\\SuaTheLoai.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Views\\Admin\\SuaTheLoai.cshtml",
+              "RelativeToolTip": "nhaconline\\Views\\Admin\\SuaTheLoai.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAIcAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T16:43:49.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "nhaconline\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "nhaconline\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T16:22:03.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Views\\Web.config",
+              "RelativeDocumentMoniker": "nhaconline\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Views\\Web.config",
+              "RelativeToolTip": "nhaconline\\Views\\Web.config",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-25T16:20:41.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "nhaconline\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "nhaconline\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:17:21.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "nhaconline\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "nhaconline\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:12:20.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Global.asax.cs",
+              "RelativeDocumentMoniker": "nhaconline\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\nhaconline\\Global.asax.cs",
+              "RelativeToolTip": "nhaconline\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:11:14.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\DatabaseProvider\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DatabaseProvider\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\DatabaseProvider\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "DatabaseProvider\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:55:52.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\cafeonline\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "cafeonline\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\doanvankhuong039\\ASP.NET-NGHENHACONLINE\\nhaconline\\cafeonline\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "cafeonline\\Views\\Home\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T15:51:47.51Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

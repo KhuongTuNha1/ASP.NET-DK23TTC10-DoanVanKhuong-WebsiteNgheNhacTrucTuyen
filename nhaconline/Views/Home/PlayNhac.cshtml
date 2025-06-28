@@ -1,0 +1,265 @@
+﻿@model List<DatabaseProvider.nhac>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main id="main" class="">
+    <div id="content" role="main" class="content-area">
+
+        <section class="section thoi-trang-nam" id="section_1724445212">
+            <div class="bg section-bg fill bg-fill  bg-loaded">
+            </div>
+            <div class="section-content relative">
+                <div id="gap-1170567910" class="gap-element clearfix" style="display:block; height:auto;">
+                </div>
+                <div class="row row-small tieu-de" id="row-2141349420">
+                    <div id="col-721859379" class="col cot3 medium-3 small-12 large-3">
+                        <div class="col-inner">
+                            <div class="category-title">
+                                <h2 class="left" style="text-align: center;"><a href="do-gia-dung-tien-ich/index.htm"></a></h2>
+                            </div>
+                            <ul class="sidebar-wrapper ul-reset">
+                                <li id="nav_menu-6" class="widget widget_nav_menu">
+                                    <div class="menu-thoi-trang-nam-container">
+                                        <ul id="menu-thoi-trang-nam" class="menu">
+                                            <li id="menu-item-495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-495"><a href="#"><img width="70" height="70" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2070%2070%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/Icon-do-dung-nha-bep-1.png" class="lazy-load _mi _before _image" alt="" loading="lazy" aria-hidden="true"><span></span></a></li>
+                                            <li id="menu-item-496" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-496"><a href="#"><img width="70" height="70" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2070%2070%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/I-con-do-dung-phong-tam-1.jpg" class="lazy-load _mi _before _image" alt="" loading="lazy" aria-hidden="true"><span></span></a></li>
+                                            <li id="menu-item-497" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-497"><a href="#"><img width="70" height="70" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2070%2070%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/Icon-do-dung-phong-ngu-1.jpg" class="lazy-load _mi _before _image" alt="" loading="lazy" aria-hidden="true"><span></span></a></li>
+                                            <li id="menu-item-498" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-498"><a href="#"><img width="70" height="70" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2070%2070%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/Icon-trang-tri-1.jpg" class="lazy-load _mi _before _image" alt="" loading="lazy" aria-hidden="true"><span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_529341123">
+                                <div class="img-inner image-cover dark" style="padding-top:162%;">
+                                    <img width="218" height="341" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20218%20341%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/Poster-do-gia-dung-1.jpg" class="lazy-load attachment-original size-original" alt="Bán buôn bán lẻ đồ gia dụng" loading="lazy" srcset="" data-srcset=" ~/Content/wp-content/uploads/2018/12/Poster-do-gia-dung-1.jpg 218w,  ~/Content/wp-content/uploads/2018/12/Poster-do-gia-dung-1-192x300.jpg 192w" sizes="(max-width: 218px) 100vw, 218px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="col-480302286" class="col sub-menu medium-9 small-12 large-9">
+                        <div class="col-inner text-right">
+                            <div class="tabbed-content">
+                                <ul class="nav nav-line-grow nav-normal nav-size-normal nav-right">
+                                    <li class="tab active has-icon"><a href="#tab_tất-cả"><span>NGHE NHẠC</span></a></li>
+                                    <li class="tab has-icon"><a href="#tab_nhà-bếp"><span></span></a></li>
+                                    <li class="tab has-icon"><a href="#tab_nhà-tắm"><span></span></a></li>
+                                    <li class="tab has-icon"><a href="#tab_phòng-ngủ"><span></span></a></li>
+                                </ul>
+                                <div class="tab-panels">
+                                    <div class="panel active entry-content" id="tab_tất-cả">
+                                        <div class="row large-columns-4 medium-columns-3 small-columns-2 row-small has-shadow row-box-shadow-2-hover">
+                                            @foreach (DatabaseProvider.nhac item in Model)
+                                            {
+                                                <div class="player">
+                                                    <h2 id="title">🎵 @item.TenBH</h2>
+                                                    <audio id="audio" controls></audio>
+                                                    <div class="controls">
+                                                        <button onclick="prevSong()">⏮️</button>
+                                                        <button onclick="togglePlay()" id="playBtn">▶️</button>
+                                                        <button onclick="nextSong()">⏭️</button>
+                                                    </div>
+                                                    <div class="progress-container" onclick="setProgress(event)">
+                                                        <div class="progress" id="progress"></div>
+                                                    </div>
+                                                    <div class="info">
+                                                        <span id="currentTime">0:00</span> /
+                                                        <span id="duration">0:00</span>
+                                                    </div>
+                                                    <div class="volume">
+                                                        🔊 <input type="range" min="0" max="1" step="0.01" id="volumeSlider" onchange="setVolume()">
+                                                    </div>
+                                                    <ul id="playlist">
+                                                            <li data-src="@Url.Content("/Content/mp3/"+item.FileLuu)">@item.TenBH</li>  
+                                                    </ul>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <style>
+                            #col-480302286 > .col-inner {
+                                padding: 0px 0px 0 0px;
+                                margin: 0px 0px 0 0px;
+                            }
+                        </style>
+                    </div>
+                    <style>
+                        #row-2141349420 > .col > .col-inner {
+                            padding: 0px 0px 0 0px;
+                        }
+                    </style>
+                </div>
+            </div>
+            <style>
+                #section_1724445212 {
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    background-color: rgb(239, 239, 239);
+                }
+
+                body {
+                    background: #222;
+                    color: #fff;
+                    font-family: sans-serif;
+                    text-align: center;
+                    padding: 40px;
+                }
+                .player {
+                    max-width: 400px;
+                    margin: auto;
+                    padding: 20px;
+                    background: #333;
+                    border-radius: 10px;
+                }
+
+                .controls button {
+                    font-size: 24px;
+                    margin: 10px;
+                    padding: 10px;
+                }
+
+                .progress-container {
+                    background: #555;
+                    height: 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin: 10px 0;
+                }
+
+                .progress {
+                    background: #1db954;
+                    height: 100%;
+                    width: 0%;
+                    border-radius: 5px;
+                }
+
+                .info {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+
+                .volume input {
+                    width: 100px;
+                }
+
+                #playlist {
+                    text-align: left;
+                    margin-top: 20px;
+                    padding: 0;
+                }
+
+                    #playlist li {
+                        list-style: none;
+                        padding: 8px;
+                        cursor: pointer;
+                    }
+
+                        #playlist li.active {
+                            background: #1db954;
+                        }
+
+            </style>
+        </section>
+<script>
+    const audio = document.getElementById('audio');
+    const playBtn = document.getElementById('playBtn');
+    const progress = document.getElementById('progress');
+    const progressContainer = document.querySelector('.progress-container');
+    const currentTimeEl = document.getElementById('currentTime');
+    const durationEl = document.getElementById('duration');
+    const volumeSlider = document.getElementById('volumeSlider');
+    const playlistItems = document.querySelectorAll('#playlist li');
+
+    let currentIndex = 0;
+    let isPlaying = false;
+
+    const songs = Array.from(playlistItems).map(li => ({
+        title: li.innerText,
+        src: li.dataset.src
+    }));
+
+    function loadSong(index) {
+        audio.src = songs[index].src;
+        document.getElementById('title').textContent = '🎵 ' + songs[index].title;
+        playlistItems.forEach((item, i) => {
+            item.classList.toggle('active', i === index);
+        });
+    }
+
+    function togglePlay() {
+        if (isPlaying) {
+            audio.pause();
+            playBtn.textContent = '▶️';
+        } else {
+            audio.play();
+            playBtn.textContent = '⏸️';
+        }
+        isPlaying = !isPlaying;
+    }
+
+    function nextSong() {
+        currentIndex = (currentIndex + 1) % songs.length;
+        loadSong(currentIndex);
+        audio.play();
+        isPlaying = true;
+        playBtn.textContent = '⏸️';
+    }
+
+    function prevSong() {
+        currentIndex = (currentIndex - 1 + songs.length) % songs.length;
+        loadSong(currentIndex);
+        audio.play();
+        isPlaying = true;
+        playBtn.textContent = '⏸️';
+    }
+
+    audio.ontimeupdate = () => {
+        const percent = (audio.currentTime / audio.duration) * 100;
+        progress.style.width = percent + '%';
+        currentTimeEl.textContent = formatTime(audio.currentTime);
+        durationEl.textContent = formatTime(audio.duration);
+    };
+
+    function setProgress(e) {
+        const width = progressContainer.clientWidth;
+        const clickX = e.offsetX;
+        audio.currentTime = (clickX / width) * audio.duration;
+    }
+
+    function setVolume() {
+        audio.volume = volumeSlider.value;
+    }
+
+    function formatTime(seconds) {
+        const min = Math.floor(seconds / 60) || 0;
+        const sec = Math.floor(seconds % 60) || 0;
+        return `${min}:${sec.toString().padStart(2, '0')}`;
+    }
+
+    playlistItems.forEach((li, index) => {
+        li.addEventListener('click', () => {
+            currentIndex = index;
+            loadSong(currentIndex);
+            audio.play();
+            isPlaying = true;
+            playBtn.textContent = '⏸️';
+        });
+    });
+
+    // Khởi tạo
+    loadSong(currentIndex);
+    volumeSlider.value = 0.5;
+    audio.volume = 0.5;
+
+</script>
+
+
+
+
+    </div>
+
+</main><!-- #main -->

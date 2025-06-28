@@ -1,0 +1,136 @@
+﻿@model List<DatabaseProvider.nhac>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main id="main" class="">
+    <div id="content" role="main" class="content-area">
+
+        <section class="section thoi-trang-nam" id="section_1724445212">
+            <div class="bg section-bg fill bg-fill  bg-loaded">
+            </div>
+            <div class="section-content relative">
+                <div id="gap-1170567910" class="gap-element clearfix" style="display:block; height:auto;">
+                </div>
+                <div class="row row-small tieu-de" id="row-2141349420">
+                    <div id="col-721859379" class="col cot3 medium-3 small-12 large-3">
+                        <div class="col-inner">
+                            <div class="category-title">
+                                <h2 class="left" style="text-align: center;"><a href="do-gia-dung-tien-ich/index.htm"></a></h2>
+                            </div>
+                            <ul class="sidebar-wrapper ul-reset">
+                                <li id="nav_menu-6" class="widget widget_nav_menu">
+                                    <div class="menu-thoi-trang-nam-container">
+                                        <ul id="menu-thoi-trang-nam" class="menu">
+                                            <li id="menu-item-495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-495"><a href="#"><img width="70" height="70" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2070%2070%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/Icon-do-dung-nha-bep-1.png" class="lazy-load _mi _before _image" alt="" loading="lazy" aria-hidden="true"><span></span></a></li>
+                                            <li id="menu-item-496" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-496"><a href="#"><img width="70" height="70" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2070%2070%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/I-con-do-dung-phong-tam-1.jpg" class="lazy-load _mi _before _image" alt="" loading="lazy" aria-hidden="true"><span></span></a></li>
+                                            <li id="menu-item-497" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-497"><a href="#"><img width="70" height="70" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2070%2070%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/Icon-do-dung-phong-ngu-1.jpg" class="lazy-load _mi _before _image" alt="" loading="lazy" aria-hidden="true"><span></span></a></li>
+                                            <li id="menu-item-498" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-498"><a href="#"><img width="70" height="70" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2070%2070%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/Icon-trang-tri-1.jpg" class="lazy-load _mi _before _image" alt="" loading="lazy" aria-hidden="true"><span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_529341123">
+                                <div class="img-inner image-cover dark" style="padding-top:162%;">
+                                    <img width="218" height="341" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20218%20341%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=" ~/Content/wp-content/uploads/2018/12/Poster-do-gia-dung-1.jpg" class="lazy-load attachment-original size-original" alt="Bán buôn bán lẻ đồ gia dụng" loading="lazy" srcset="" data-srcset=" ~/Content/wp-content/uploads/2018/12/Poster-do-gia-dung-1.jpg 218w,  ~/Content/wp-content/uploads/2018/12/Poster-do-gia-dung-1-192x300.jpg 192w" sizes="(max-width: 218px) 100vw, 218px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="col-480302286" class="col sub-menu medium-9 small-12 large-9">
+                        <div class="col-inner text-right">
+
+                            <div class="tabbed-content">
+
+                                <ul class="nav nav-line-grow nav-normal nav-size-normal nav-right">
+
+                                    <li class="tab active has-icon"><a href="#tab_tất-cả"><span>NHẠC NGHE NHIỀU NHẤT</span></a></li>
+
+                                    <li class="tab has-icon"><a href="#tab_nhà-bếp"><span></span></a></li>
+                                    <li class="tab has-icon"><a href="#tab_nhà-tắm"><span></span></a></li>
+                                    <li class="tab has-icon"><a href="#tab_phòng-ngủ"><span></span></a></li>
+                                </ul>
+                                <div class="tab-panels">
+                                    <div class="panel active entry-content" id="tab_tất-cả">
+                                        <div class="row large-columns-4 medium-columns-3 small-columns-2 row-small has-shadow row-box-shadow-2-hover">
+                                            @foreach (DatabaseProvider.nhac item in Model)
+                                            {
+                                                <div class="col">
+                                                    <div class="col-inner">
+                                                        <div class="badge-container absolute left top z-1">
+                                                            <div class="callout badge badge-square"><div class="badge-inner secondary on-sale"><span class="onsale">Hot</span></div></div>
+                                                        </div>
+                                                        <div class="product-small box has-hover box-normal box-text-bottom">
+                                                            <div class="box-image">
+                                                                <div class="image-overlay-add image-cover" style="padding-top:100%;">
+                                                                    <a href="PlayNhac?id=@item.MaBH">
+                                                                        <img width="900" height="400" src="~/Content/hinh/@item.Image">
+                                                                    </a>
+                                                                    <div class="overlay fill" style="background-color: rgba(0, 0, 0, 0.14)"></div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="box-text text-left" style="background-color:rgb(255, 255, 255);padding:7px 7px 15px 7px;">
+                                                                <center>
+                                                                    <div class="title-wrapper">
+                                                                        <b>
+                                                                            <p class="name product-title woocommerce-loop-product__title">
+                                                                                <a href="PlayNhac?id=@item.MaBH" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">@item.TenBH</a>
+                                                                            </p>
+                                                                        </b>
+                                                                    </div>
+                                                                </center>
+                                                                <div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>
+                                                                <div class="title-wrapper"><span class="price"> <ins><span class="woocommerce-Price-amount amount"><bdi>@item.CaSi</bdi></span></ins></span></div>
+                                                                <div class="price-wrapper">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            }
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <style>
+                            #col-480302286 > .col-inner {
+                                padding: 0px 0px 0 0px;
+                                margin: 0px 0px 0 0px;
+                            }
+                        </style>
+                    </div>
+
+
+
+                    <style>
+                        #row-2141349420 > .col > .col-inner {
+                            padding: 0px 0px 0 0px;
+                        }
+                    </style>
+                </div>
+            </div>
+
+
+            <style>
+                #section_1724445212 {
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    background-color: rgb(239, 239, 239);
+                }
+            </style>
+        </section>
+
+
+
+
+
+    </div>
+
+</main><!-- #main -->

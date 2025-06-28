@@ -1,0 +1,60 @@
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\DataIO.dll.config
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\DataIO.dll
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\DataIO.pdb
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\DatabaseProvider.dll
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\DatabaseProvider.pdb
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\DatabaseProvider.dll.config
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\cafeonline\DataIO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\cafeonline\DataIO\obj\Debug\DataIO.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\cafeonline\DataIO\obj\Debug\DataIO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\cafeonline\DataIO\obj\Debug\DataIO.csproj.CopyComplete
+C:\Users\Admin\source\repos\cafeonline\DataIO\obj\Debug\DataIO.dll
+C:\Users\Admin\source\repos\cafeonline\DataIO\obj\Debug\DataIO.pdb
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\DataIO.dll.config
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\DataIO.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\DataIO.pdb
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\DatabaseProvider.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\EntityFramework.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\DatabaseProvider.pdb
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\DatabaseProvider.dll.config
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\EntityFramework.xml
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\obj\Debug\DataIO.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\obj\Debug\DataIO.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\obj\Debug\DataIO.csproj.Up2Date
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\obj\Debug\DataIO.dll
+C:\Users\nguye\OneDrive - GVST Việt Nam\Bao cao loan\repos\cafeonline\DataIO\obj\Debug\DataIO.pdb
+C:\nhaconline\DataIO\bin\Debug\DataIO.dll.config
+C:\nhaconline\DataIO\bin\Debug\DataIO.dll
+C:\nhaconline\DataIO\bin\Debug\DataIO.pdb
+C:\nhaconline\DataIO\bin\Debug\DatabaseProvider.dll
+C:\nhaconline\DataIO\bin\Debug\EntityFramework.dll
+C:\nhaconline\DataIO\bin\Debug\EntityFramework.SqlServer.dll
+C:\nhaconline\DataIO\bin\Debug\DatabaseProvider.pdb
+C:\nhaconline\DataIO\bin\Debug\DatabaseProvider.dll.config
+C:\nhaconline\DataIO\bin\Debug\EntityFramework.xml
+C:\nhaconline\DataIO\bin\Debug\EntityFramework.SqlServer.xml
+C:\nhaconline\DataIO\obj\Debug\DataIO.csproj.AssemblyReference.cache
+C:\nhaconline\DataIO\obj\Debug\DataIO.csproj.CoreCompileInputs.cache
+C:\nhaconline\DataIO\obj\Debug\DataIO.csproj.Up2Date
+C:\nhaconline\DataIO\obj\Debug\DataIO.dll
+C:\nhaconline\DataIO\obj\Debug\DataIO.pdb
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\DataIO.dll.config
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\DataIO.dll
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\DataIO.pdb
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\DatabaseProvider.dll
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\EntityFramework.dll
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\DatabaseProvider.pdb
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\DatabaseProvider.dll.config
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\EntityFramework.xml
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\obj\Debug\DataIO.csproj.AssemblyReference.cache
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\obj\Debug\DataIO.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\obj\Debug\DataIO.csproj.Up2Date
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\obj\Debug\DataIO.dll
+C:\Users\nguye\source\repos\doanvankhuong039\ASP.NET-NGHENHACONLINE\nhaconline\DataIO\obj\Debug\DataIO.pdb
